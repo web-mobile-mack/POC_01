@@ -97,34 +97,7 @@ Para começar a usar o Flexbox, você precisa definir um contêiner flexível. I
      align-self: center;
    }
    ```
-
-### Exemplo Completo
-
-Aqui está um exemplo completo que utiliza várias dessas propriedades:
-
-```html
-<div class="container">
-  <div class="item">Item 1</div>
-  <div class="item">Item 2</div>
-  <div class="item">Item 3</div>
-</div>
-```
-
-```css
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.item {
-  flex-grow: 1;
-  flex-basis: 100px;
-  align-self: flex-start;
-}
-```
+## Treino
 Para praticar e aprender mais sobre Flexbox de uma maneira divertida, você pode usar o [Flexbox Froggy](https://flexboxfroggy.com/)¹. É um jogo interativo onde você ajuda um sapinho a chegar ao seu destino escrevendo código CSS. É uma ótima maneira de reforçar os conceitos de Flexbox enquanto se diverte!
 
 Para mais detalhes, você pode conferir [este guia completo sobre Flexbox](https://www.alura.com.br/artigos/css-guia-do-flexbox)² e [a documentação do MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)³.
