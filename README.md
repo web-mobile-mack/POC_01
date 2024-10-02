@@ -1,4 +1,6 @@
 # POC_01
+## Resumo
+Esta POC têm como objetivo explicar de forma plena como usar a propriedade Flexbox do CSS. Também daremos exemplos de código de como utilizar essa propriedade tão importante do CSS.
 ### Estrutura Básica
 
 Para começar a usar o Flexbox, você precisa definir um contêiner flexível. Isso é feito aplicando `display: flex` ao elemento pai. Os elementos filhos dentro desse contêiner se tornam itens flexíveis.
